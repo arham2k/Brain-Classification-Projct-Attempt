@@ -8,7 +8,7 @@ from tensorflow.keras import layers, models
 import torch
 import torch.nn as nn
 
-IMAGE_DIR = '/Users/arhamsheikh/Documents/Coding Projects/ECE1513 Assignments/SelfProject/data'
+IMAGE_DIR = 'SelfProject/data'
 
 model = tf.keras.models.load_model('brain_tumor_classifier.h5')
 
