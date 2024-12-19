@@ -24,8 +24,26 @@ For this project, the dataset was collected from publicly available medical imag
 
 ### Directory Structure:
 
-/data # Directory containing the images (train images should be organized here) /outputs 
-# Folder to store the predictions and output files (e.g., saved models, visualizations) brain_tumor_classifier.h5 
-# Trained model saved after completion requirements.txt 
-# List of dependencies for the project README.md 
-# Documentation for the project
+/data                  # Directory containing the image dataset (images should be organized here for training)
+/outputs               # Folder to store predictions and output files (e.g., trained models, visualizations)
+/brain_tumor_classifier.h5  # Trained model saved after completion of training
+/requirements.txt      # List of dependencies required to run the project
+README.md              # Documentation file providing an overview of the project
+
+
+
+The images are in `.jpg`, `.jpeg`, or `.png` formats and are grayscale with a resolution of 128x128 pixels. All images are resized to 128x128 to standardize input sizes for the CNN.
+
+## Requirements
+
+To run this project, you need to install the following Python libraries:
+
+- `numpy`: for numerical operations.
+- `opencv-python`: for image processing.
+- `scikit-learn`: for model evaluation and data splitting.
+- `tensorflow`: for building and training the CNN model.
+- `torch`: for potential use with PyTorch (though not actively used in the current version).
+- `matplotlib`: for data visualization and plotting.
+
+
+
